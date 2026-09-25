@@ -18,7 +18,7 @@ cask "signaro" do
     end
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Signaro.app"
   binary "#{appdir}/Signaro.app/Contents/Helpers/SignaroCLI", target: "signarocli"
