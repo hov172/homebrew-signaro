@@ -16,7 +16,10 @@ cask "displayhelp" do
 
   pkg "DisplayHelp-#{version}.pkg"
 
-  uninstall launchctl: "com.displayhelp.app",
+  uninstall launchctl: [
+              "com.displayhelp.app",
+              "com.displayhelp.updater",
+            ],
             quit:      "com.displayhelp.app",
             pkgutil:   "com.displayhelp.app",
             delete:    "/Library/LaunchAgents/com.displayhelp.app.plist"
