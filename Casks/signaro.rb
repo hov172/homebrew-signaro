@@ -1,6 +1,6 @@
 cask "signaro" do
-  version "5.5-1.7.23"
-  sha256 "3f81d08175a8465760b40d6eebfdcd9a65d3892b37507b496733af5c04ca83ab"
+  version "5.5-1.7.24"
+  sha256 "949efab8013cbaa8ab124ca056efdb515f21fd064f67c16a24db41c11bd81ee7"
 
   url "https://github.com/hov172/Signaro/releases/download/v#{version.sub("-", "-build-")}/Signaro-#{version}.dmg"
   name "Signaro"
